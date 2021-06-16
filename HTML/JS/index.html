@@ -2,11 +2,20 @@
   <html>
     <head>
       <link rel="stylesheet" href="/HTML/css/master.css">
-      <script>alert("HALLO");console.log("Wir haben auch eine Konsole");</script>
+      <script>
+        alert("HALLO");
+        console.log("Wir haben auch eine Konsole");
+        funktion processData(){
+         alert("HALLO"); 
+        }
+      </script>
     </head>
     
     <body>
-      <p>Schaue in die Konsole</p>
+      <p>Fülle das Form bitte aus</p>
+      <form action="processData()">
+        <input type="submit" value="Submit">
+      </form>
       
     </body>
     
