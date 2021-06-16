@@ -2,3 +2,11 @@ body {
   text-align: center;
   font-family: Arial;
 }
+.nav
+{
+background-color: white;
+}
+.nav:hover
+{
+background-color: #ff8800 
+}
