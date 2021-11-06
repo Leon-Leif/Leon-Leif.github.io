@@ -1,5 +1,3 @@
-function hello(){
-  alert("HALLO");
-}
+alert("HALLO");
 
 
